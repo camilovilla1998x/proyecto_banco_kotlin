@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C969FAA"
+    tools:context=".registroPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712">
+
+        <TextView
+            android:id="@+id/titlle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:foregroundGravity="center"
+            android:text="Registro de usuario"
+            android:textColor="#47525E"
+            android:textSize="28sp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/editTNombreReg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="112dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTMontoReg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="228dp"
+            android:ems="10"
+            android:hint="Monto"
+            android:inputType="textPersonName"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTCedulaReg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:hint="Cédula"
+            android:inputType="number"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTPassReg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="172dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPersonName|textPassword"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.46"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnRegistrarseReg"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="312dp"
+            android:text="Registrarse"
+            android:textSize="20sp"
+            app:backgroundTint="#47525E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

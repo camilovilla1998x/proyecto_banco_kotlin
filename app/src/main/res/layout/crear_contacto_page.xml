@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C969FAA"
+    tools:context=".crearContactoPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712">
+
+
+        <TextView
+            android:id="@+id/titlle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:foregroundGravity="center"
+            android:text="Crear contacto"
+            android:textColor="#47525E"
+            android:textSize="28sp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTNombreContacto"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="132dp"
+            android:ems="10"
+            android:hint="Ingrese el nombre del contacto"
+            android:inputType="textPersonName"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnGuardarContacto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTNumeroContact"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="92dp"
+            android:ems="10"
+            android:hint="Ingrese el número del contacto"
+            android:inputType="number"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTNombreReg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.641" />
+
+        <Button
+            android:id="@+id/btnGuardarContacto"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="236dp"
+            android:text="Guardar"
+            android:textSize="20sp"
+            app:backgroundTint="#47525E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

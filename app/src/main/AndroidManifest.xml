@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyecto_banco">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto_Banco">
+        <activity android:name=".misNotasPage"></activity>
+        <activity android:name=".crearNotaPage" />
+        <activity android:name=".notasPage" />
+        <activity android:name=".verContactoPage" />
+        <activity android:name=".crearContactoPage" />
+        <activity android:name=".mensajesPage" />
+        <activity android:name=".contactosPage" />
+        <activity android:name=".detallesTransaccionPage" />
+        <activity android:name=".registroPage" />
+        <activity android:name=".manualUsuarioPage" />
+        <activity android:name=".enviarDineroPage" />
+        <activity android:name=".retirarSaldoPage" />
+        <activity android:name=".verSaldoPage" />
+        <activity android:name=".homePage" />
+        <activity android:name=".loginPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C969FAA"
+    tools:context=".enviarDineroPage">
+
+    <TextView
+        android:id="@+id/btnCerrarSesionENV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cerrar sesión"
+        android:textColor="#B8977E"
+        android:textSize="16sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transferir dinero"
+        android:textColor="#47525E"
+        android:textSize="28sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712">
+
+
+        <EditText
+            android:id="@+id/editTMontoEnv"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="64dp"
+            android:ems="10"
+            android:hint="Ingrese la cantidad a transferir"
+            android:inputType="number"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.456"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTCedulaEnv"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="128dp"
+            android:ems="10"
+            android:hint="Ingrese cédula del remitente"
+            android:inputType="number"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTCedula2Env"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="192dp"
+            android:ems="10"
+            android:hint="Ingrese cédula del remitente"
+            android:inputType="number"
+            android:textColor="#47525E"
+            android:textColorHint="#47525E"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnEnviarDineroEnv"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="264dp"
+            android:text="Enviar dinero"
+            android:textSize="20sp"
+            app:backgroundTint="#47525E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
